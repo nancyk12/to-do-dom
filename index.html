@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+
+<!--Title-->
+    <h1>To Do List</h1>
+
+    <!--Input Label and Box-->
+    <div id="inputArea">
+        <label>Add to your to-do list!</label>
+        <br>
+        <input id="itemBox" type="text" size="53">
+    </div>
+
+    <br>
+
+    <!--Buttons-->
+    <div id="buttons">
+        <button class="add">
+            ADD
+        </button>
+        <button class="removeCompleted">
+            REMOVE COMPLETED TASKS
+        </button>
+        <button class="removeAll">
+            REMOVE ALL
+        </button>
+    </div>
+
+    <br>
+
+    <!--Listed Items-->
+    <div id="listContainer">
+        <p> </p>
+    </div>
+    
+</div>
+<!--
+    <div>
+        <form id="todoForm">
+            <input type id="textInput" type="text" autocomplete="off"/>
+            <input type="submit" value="submit"/>
+        </form>
+    </div>
+</div>
+   <div>
+      toDoForm.addEventListener('submit', function(event){
+            event.preventDefault();
+        
+            //create new list item
+            let newItem = document.createElement('li');
+        
+            //give list item text from textInput box
+            newItem.innerText = textInput.value;
+        
+            // console.log(newItem);
+        
+            toDoList.appendChild(newItem);
+            textInput.value = "";
+        
+        })>
+    </div>
+-->
+
+    <script src="main.js"></script>
+</body>
+</html>
