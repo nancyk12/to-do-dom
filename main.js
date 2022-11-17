@@ -20,7 +20,7 @@ add.addEventListener('click', function(){
     newItem.className = 'listItem'
     newItem.addEventListener('click', function(){
         if(newItem.style.textDecoration !== "line-through"){
-            newItem.style.textDecoration = 'line-threw'
+            newItem.style.textDecoration = 'line-through'
 
         }else {
             newItem.style.textDecoration = '';
